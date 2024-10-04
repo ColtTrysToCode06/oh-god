@@ -1,1 +1,48 @@
+print("\033[33m","Welcome to Colt's amazing self insert creatorTM. Let's begin with some basic questions about you.""\033[0m")
+name=input("To start, your name adventurer? >").capitalize()
+print("\033[33m","a lovely name for a protagonist if I do say so myself""\033[0m")
+print()
+desc=input("And how would you describe yourself in one word? >")
+print("\033[33m","Ah I see. Intresting.""\033[0m")
+print()
+hobby=input("Almost done, What do you love to do in your spare time? >")
+print("\033[33m","How fun :D""\033[0m")
+print()
+enemy=input("Okay final one for now, what is the name of your greatest rival? >")
+print("\033[33m","Oh this will be fun, time to compile the start of your story. one moment.""\033[34m")
+print()
+print("There was once a protagonist named",desc,name,"who sat under a tree. They had decided to bask in the sun and enjoy",hobby,"in the outdoors for once, as they had been told to touch grass. Suddenly thier strongest rival",enemy,"apeared and as if it was a bad fanfic loomed over them a smirk on thier face.")
+print()
+print("\033[33m","Thats a pretty good start dont you think",name,"? lets continue but first a few more questions.""\033[0m")
+print()
+ans=input("If given the chance how would you insult your rival? >")
+print("\033[33m","Good one.""\033[0m")
+print()
+charecter=input("what's your favorite fictional charecter? >")
+fandom=input("And what might they be from? >")
+print("\033[33m","oh yeah I've heard of that.""\033[0m")
+print()
+weapon=input("And if you were to find yourself fighting with what fighting implement would you like to fight with? >")
+print("\033[33m","What a fun choice.""\033[0m")
+print()
+adj=input("And now just for fun give me a rendom adjective >")
+enemyDesc=input("And now give me a one word description of your enemy >")
+print("\033[33m","That gives us plenty to work with. now the end to our short story. one moment.""\033[34m")
+print()
+print("As",enemy,"loomed over",name,"they patted down thier sides searching for a",adj,weapon,"to get rid of",enemy,"like",charecter,"from",fandom,"would. As",name,"looked for thier weapon someone walked by and called out to",enemy,"saying, <You're so",enemyDesc,enemy,"you",ans,"Why are you even bothering to hang around.>",name,"Having finally found thier",weapon,"took thier rival looking the other way at the opotunity to attack and vanquish them. and then everyone in the vacinity clapped and cheered",name,"on as",enemy,"lay on the grass.""\033[0m")
+print()
+print("""Quite the fun story dont you think?
+a joyfully created self insert with the help of Colts amazing slef insert creatorTM.
+As you have finished your story you may close the program or start anew.
 
+
+
+    *    |       /    *
+ *    \  Have a good day     *
+/|* ^        *         \ *
+*| / \ 
+ \(._.) 
+   | |\ 
+   | | \ 
+   / \ 
+  /   \ """)
